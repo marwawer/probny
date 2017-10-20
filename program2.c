@@ -1,18 +1,53 @@
 #include <stdio.h>
 
-int mnoz (int a, int b) {return a * b; }
-int dodaj (int a, int b) {return a + b; }
+
+int mnoz (int a, int b) {
+		printf("Wynik mnozenia: %i\n", a * b);
+		return a * b;
+}
+
+int dodaj (int a, int b) {
+		printf("Wynik dodawania: %i\n",  a + b);
+		return a + b;
+}
+
+int odejmij (int a, int b) {
+
+                printf("Wynik odejmowania: %i\n", a - b);
+                return a - b;
+}
+
+int dziel (int a, int b) {
+
+                printf("Wynik dzielenia: %i\n", a / b);
+                return a / b;
+}
+
 int main(void)
 {
-	int a = 2, b = 5; /*deklaracja wraz z inicjalizacja*/ /* if (wyrazenie) {blok jest wyrazenie prawdziwe} else {blok jest wyrazenie falszywe}*/
-	char wybor = '+';
+		int a, b; 
 
-	scanf("%c", &wybor); /*czytaj z konsoli i zapisz pod wybor */
-	if(wybor == '*') {
-		printf("Wynik mnozenia: %i\n", mnoz(a,b));
-	}else{
-		printf("Wynik dodawania: %i\n", dodaj(a,b));
+		char wybor;
+		printf("Podaj wartosc argunemtow a: "); scanf("%i", &a); 
+		printf("Podaj wartosc argumentow b: "); scanf("%i", &b); 
+		printf("Podaj dzialanie: \n "); scanf("\n%c", &wybor);
+		printf("Wynik dzialania: \n"); 
 
-	}; /*ten srednik jest opcjonalny jezeli wystepuje klamra*/
-	return 0;
+		if(wybor  == '*') {
+			mnoz (a, b);
+		}else if (wybor == '+') {
+			dodaj (a, b);
+		}else if (wybor == '-') {
+			odejmij (a, b);
+		}else if (wybor == '/') {
+			dziel (a, b);
+
+		}else {
+
+	}
+		return 0;
+
 }
+
+
+
