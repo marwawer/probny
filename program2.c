@@ -2,11 +2,12 @@
 
 int mnoz (int a, int b) {return a * b; }
 int dodaj (int a, int b) {return a + b; }
-
 int main(void)
 {
 	int a = 2, b = 5; /*deklaracja wraz z inicjalizacja*/ /* if (wyrazenie) {blok jest wyrazenie prawdziwe} else {blok jest wyrazenie falszywe}*/
 	char wybor = '+';
+
+	scanf("%c", &wybor); /*czytaj z konsoli i zapisz pod wybor */
 	if(wybor == '*') {
 		printf("Wynik mnozenia: %i\n", mnoz(a,b));
 	}else{
