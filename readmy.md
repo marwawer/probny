@@ -154,3 +154,35 @@
   154  gcc program2.c -o program2.o
   155  ./program2.o
   156  history >readmy.md
+  157  nano program2.c
+  158  cat program2.c
+  159  gcc program2.c -o program.o
+  160  ./program.o
+  161  ls
+  162  git add
+  163  git add .
+  164  git status
+  165  git commit - m "druga zmiana"
+  166  git commit -m "probny"
+  167  git push
+  168  nano program2.c
+  169  gcc program2.c -o program2.o
+  170  nano program2.c
+  171  gcc program2.c -o program2.o
+  172  nano program2.c
+  173  gcc program2.c -o program2.o
+  174  nano program2.c
+  175  gcc program2.c -o program2.o
+  176  nano program2.c
+  177  gcc program2.c -o program2.o
+  178  nano program2.c
+  179  gcc program2.c -o program2.o
+  180  ./program2.o
+  181  nano program2.c
+  182  git add .
+  183  git status
+  184  git commit -m "probny"
+  185  git push
+  186  git status
+  187  git push -u origin master
+  188  history > readmy.md
