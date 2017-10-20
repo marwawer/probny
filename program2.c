@@ -1,16 +1,17 @@
 #include <stdio.h>
 
-int mnoz (int a, int b) {
-	return a*b;
-}
+int mnoz (int a, int b) {return a * b; }
+int dodaj (int a, int b) {return a + b; }
 
 int main(void)
-
 {
-	int wynik; /*deklaracjia zmiannej typu typu calkowitego*/
+	int a = 2, b = 5; /*deklaracja wraz z inicjalizacja*/ /* if (wyrazenie) {blok jest wyrazenie prawdziwe} else {blok jest wyrazenie falszywe}*/
+	char wybor = '+';
+	if(wybor == '*') {
+		printf("Wynik mnozenia: %i\n", mnoz(a,b));
+	}else{
+		printf("Wynik dodawania: %i\n", dodaj(a,b));
 
-	wynik = mnoz(4,5); /**/
-
-	printf("Wynik mnozenia: %i\n", mnoz(4,5));
+	}; /*ten srednik jest opcjonalny jezeli wystepuje klamra*/
 	return 0;
 }
