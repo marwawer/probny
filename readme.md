@@ -1,24 +1,24 @@
-    1  git
-    2  sudo apt-get install git
-    3  git help
-    4  git status
-    5  https://github.com/marwawer/program_drugi.git
-    6  marwawer
-    7  https://github.com/marwawer/repozytorium.git
-    8  cd Pulpit
-    9  touch repozytorium
-   10  cd repozytorium
-   11  mkdir repozytorium
-   12  rm repozytorium
-   13  mkdir repozytorium
-   14  git clone https://github.com/marwawer/repozytorium.git
-   15  git clone https://github.com/marwawer/pierwszy_program_w_c.git
-   16  git clone https://github.com/marwawer/program_drugi.git
-   17  git ststus
-   18  git status
-   19  git log
-   20  cd program_drugi
-   21  git log
+*    1  git
+*    2  sudo apt-get install git
+*    3  git help
+*    4  git status
+*    5  https://github.com/marwawer/program_drugi.git
+*    6  marwawer
+*    7  https://github.com/marwawer/repozytorium.git
++    8  cd Pulpit
++    9  touch repozytorium
++   10  cd repozytorium
++   11  mkdir repozytorium
++   12  rm repozytorium
++   13  mkdir repozytorium
+*   14  git clone https://github.com/marwawer/repozytorium.git
+*   15  git clone https://github.com/marwawer/pierwszy_program_w_c.git
+*   16  git clone https://github.com/marwawer/program_drugi.git
+-   17  git ststus
+-   18  git status
+-   19  git log
+-   20  cd program_drugi
+-   21  git log
    22  touch program4.c
    23  nano program4.c
    24  gcc program4.c -o program.o
