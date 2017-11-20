@@ -19,16 +19,16 @@
 -   19  git log
 -   20  cd program_drugi
 -   21  git log
-   22  touch program4.c
-   23  nano program4.c
-   24  gcc program4.c -o program.o
-   25  ./program4
-   26  ./program4.o
-   27  ./program.o
-   28  ls
-   29  git add .
-   30  git commit -m "program czwarty"
-   31  git status
+   22.  touch program4.c
+   23.  nano program4.c
+   24.  gcc program4.c -o program.o
+   25.  ./program4
+   26.  ./program4.o
+   27.  ./program.o
+   28.  ls
+   29.  git add .
+   30.  git commit -m "program czwarty"
+   31.  git status
    32  git config
    33  git push
    34  git status
