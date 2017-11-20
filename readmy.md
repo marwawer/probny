@@ -1,17 +1,20 @@
-    1  git
-    2  sudo apt-get install git
-    3  git help
-    4  git status
-    5  https://github.com/marwawer/program_drugi.git
-    6  marwawer
-    7  https://github.com/marwawer/repozytorium.git
-    8  cd Pulpit
-    9  touch repozytorium
-   10  cd repozytorium
-   11  mkdir repozytorium
-   12  rm repozytorium
-   13  mkdir repozytorium
-   14  git clone https://github.com/marwawer/repozytorium.git
+	READMY PROGRAMU
+	===============
+
+    1  <p>git/p>
+    2  <p>sudo apt-get install git/p>
+    3  <p>git help/p>
+    4  <p>git status/p>
+    5  <p>https://github.com/marwawer/program_drugi.git/p>
+    6  <p>marwawer/p>
+    7  <p>https://github.com/marwawer/repozytorium.git/p>
+    8  <p>cd Pulpit/p>
+    9  <p>touch repozytorium/p>
+   10  <p>cd repozytorium/p>
+   11  <p>mkdir repozytorium/p>
+   12  <p>rm repozytorium/p>
+   13  <p>mkdir repozytorium/p>
+   14  <p>git clone https://github.com/marwawer/repozytorium.git/p>
    15  git clone https://github.com/marwawer/pierwszy_program_w_c.git
    16  git clone https://github.com/marwawer/program_drugi.git
    17  git ststus
