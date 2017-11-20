@@ -1,33 +1,33 @@
 	READMY PROGRAMU
 	===============
 
-    1  <p>git/p>
-    2  <p>sudo apt-get install git/p>
-    3  <p>git help/p>
-    4  <p>git status/p>
-    5  <p>https://github.com/marwawer/program_drugi.git/p>
-    6  <p>marwawer/p>
-    7  <p>https://github.com/marwawer/repozytorium.git/p>
-    8  <p>cd Pulpit/p>
-    9  <p>touch repozytorium/p>
-   10  <p>cd repozytorium/p>
-   11  <p>mkdir repozytorium/p>
-   12  <p>rm repozytorium/p>
-   13  <p>mkdir repozytorium/p>
-   14  <p>git clone https://github.com/marwawer/repozytorium.git/p>
-   15  git clone https://github.com/marwawer/pierwszy_program_w_c.git
-   16  git clone https://github.com/marwawer/program_drugi.git
-   17  git ststus
-   18  git status
-   19  git log
-   20  cd program_drugi
-   21  git log
-   22  touch program4.c
-   23  nano program4.c
-   24  gcc program4.c -o program.o
-   25  ./program4
-   26  ./program4.o
-   27  ./program.o
+    1  <p>git</p>
+    2  <p>sudo apt-get install git</p>
+    3  <p>git help</p>
+    4  <p>git status</p>
+    5  <p>https://github.com/marwawer/program_drugi.git</p>
+    6  <p>marwawer</p>
+    7  <p>https://github.com/marwawer/repozytorium.git</p>
+    8  <p>cd Pulpit</p>
+    9  <p>touch repozytorium</p>
+   10  <p>cd repozytorium</p>
+   11  <p>mkdir repozytorium</p>
+   12  <p>rm repozytorium</p>
+   13  <p>mkdir repozytorium</p>
+   14  <p>git clone https://github.com/marwawer/repozytorium.git</p>
+   15  > git clone https://github.com/marwawer/pierwszy_program_w_c.git
+   16  > git clone https://github.com/marwawer/program_drugi.git
+   17  > git ststus
+   18  > git status
+   19  > git log
+   20  > cd program_drugi
+   21  > git log
+   22  > touch program4.c
+   23  > nano program4.c
+   24  > gcc program4.c -o program.o
+   25  > ./program4
+   26  > ./program4.o
+   27  > ./program.o
    28  ls
    29  git add .
    30  git commit -m "program czwarty"
